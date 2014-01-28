@@ -1,0 +1,14 @@
+#slide { width: 300px; }
+.slider_strike_content #slide { padding:  }
+body .slider_strike_content { padding: 0 300px !important; }
+
+
+.slider_strike_content { position: relative; }
+.slider_strike_element {  }
+.slider_strike_item    {  }
+.slider_strike_actions {  }
+
+.slider_strike_btn_siguiente,
+.slider_strike_btn_anterior  { position: absolute; top: 45%; display: block; }
+.slider_strike_btn_siguiente { right: 2%; }
+.slider_strike_btn_anterior  { left: 2%; }

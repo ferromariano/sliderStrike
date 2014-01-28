@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sliderStrike</title>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="src/jquery.sliderStrike.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="src/jquery.sliderStrike.css">
+</head>
+<body>
+
+  <ul>
+    <li><a href="#"><h1>Hola 1</h1></a></li>
+    <li><a href="#"><h1>Hola 2</h1></a></li>
+    <li><a href="#"><h1>Hola 3</h1></a></li>
+    <li><a href="#"><h1>Hola 4</h1></a></li>
+  </ul>
+
+  <ul id="slide">
+    <li><a href="#"><h1>Hola 1</h1></a></li>
+    <li><a href="#"><h1>Hola 2</h1></a></li>
+    <li><a href="#"><h1>Hola 3</h1></a></li>
+    <li><a href="#"><h1>Hola 4</h1></a></li>
+  </ul>
+ <ul id="slide2">
+    <li><a href="#"><h1>Hola11</h1></a></li>
+    <li><a href="#"><h1>Hola21</h1></a></li>
+    <li><a href="#"><h1>Hola31</h1></a></li>
+  </ul>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#slide').sliderStrike();
+    $('#slide2').sliderStrike();
+  });
+
+</script>
+
+
+</body>
+</html>
